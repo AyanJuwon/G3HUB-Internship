@@ -1,0 +1,29 @@
+
+/* Css sprites */
+.icon-twitter, .icon-facebook, .icon-vimeo{
+  background-image: url('https://i.stack.imgur.com/sOemp.png');
+  background-repeat: no-repeat;
+}
+
+.icon-twitter {
+  height: 72px;
+  width: 72px;
+  background-position: -2px -3px;
+}
+
+.icon-facebook {
+  height: 72px;
+  width: 72px;
+  background-position: -78px -3px;
+}
+
+.icon-vimeo {
+  height: 72px;
+  width: 72px;
+  background-position: -231px -3px;
+}
+
+ul li {
+  margin: 2px 0;
+  display: inline-block;
+}
