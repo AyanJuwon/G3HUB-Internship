@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Html Tags/title>
+</head>
+<h2> Declaring a variable</h2>
+<p>to declare a variable we use the keyword var</p>
+<h2>Declaring a function</h2>
+<p>To declae a function, we use the keyword function</p>
+<script>
+    var new_variable ;
+    new_variable = 10;
+
+
+
+    function print_to_console(){
+        console.log('this function works')
+    ;}
+
+    function add(a,b){
+        return a+b;
+    };
+
+    function return_value(){
+        var val = 5;
+        return val;
+    }
+
+    function if_else(){
+        a = 5;
+        b= 10;
+        if(a < b){
+            console.log('A is less than B')
+        }
+        else{
+            console.log('A is greater than B')
+        }
+    }
+
+    //<!-- Using math operators -->
+    var sum,minus,divide,multiply,mod
+    sum = a + b;
+    minus = a-b;
+    divide = a/b;
+    multiply = a * b;
+    mod = a % b
+
+    // Using Logicla operators
+    var exp1,exp2
+     exp1 === exp2;
+     exp1 !== exp2;
+     exp1 != exp2;
+     exp1 == exp2;
+     exp1 > exp2;
+     exp1 >= exp2;
+     exp1 < exp2;
+     exp1 <= exp2;
+
+     //create a string
+     var new_string = 'This is a string'
+    //concatenate a string
+     var part1 ='Hello, '
+     var part2 ='World '
+    console.log(part1+part2)
+
+    //Create an array
+    var cars = ['Toyota','Honda','Tesla','Mercedes']
+
+    //Create an object
+
+    var car = {
+        color:'blue',
+        doors:'4',
+        model:'Tesla',
+        fuel:'Electric'
+    }
+
+    // For Loop
+    for(var i = 0; i<20;i++){
+        console.log(i)
+    }
+
+    // For in Loop
+
+    var text = "";
+var x;
+for (x in car) {
+  text += car[x];
+}
+
+//A While loop
+
+    while (i < 10) {
+        text += "The number is " + i;
+        i++;
+    }
+
+
+
+</script>
+<body>
+
+
+</body>
+
+</html>
